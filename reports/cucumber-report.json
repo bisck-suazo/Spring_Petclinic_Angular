@@ -1,0 +1,234 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "gestión-de-propietarios;crear-propietario-nuevo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Crear propietario nuevo",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1592744000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "el usuario abre PetClinic",
+            "match": {
+              "location": "src\\test\\steps\\common.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 949622899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "navega al módulo Owners",
+            "match": {
+              "location": "src\\test\\steps\\common.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3659065299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "selecciona Add New",
+            "match": {
+              "location": "src\\test\\steps\\owner.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 611936799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "completa el formulario del propietario",
+            "match": {
+              "location": "src\\test\\steps\\owner.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2676904999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "guarda el propietario",
+            "match": {
+              "location": "src\\test\\steps\\owner.steps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 560217500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "el sistema muestra el propietario creado",
+            "match": {
+              "location": "src\\test\\steps\\owner.steps.js:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 154090699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 650821899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "gestión-de-propietarios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Gestión de propietarios",
+    "tags": [],
+    "uri": "src\\test\\features\\owner.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "buscar-propietarios;buscar-propietario-por-apellido",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Buscar propietario por apellido",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1371438799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "el usuario abre PetClinic",
+            "match": {
+              "location": "src\\test\\steps\\common.steps.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 923651400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "navega al módulo Owners",
+            "match": {
+              "location": "src\\test\\steps\\common.steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3609788200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "selecciona Search",
+            "match": {
+              "location": "src\\test\\steps\\search-owner.steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 613863999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "escribe el apellido del propietario",
+            "match": {
+              "location": "src\\test\\steps\\search-owner.steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 531122800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "presiona Find Owner",
+            "match": {
+              "location": "src\\test\\steps\\search-owner.steps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 559961100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "el sistema muestra los resultados de búsqueda",
+            "match": {
+              "location": "src\\test\\steps\\search-owner.steps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3138734300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 734352100
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "buscar-propietarios",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Buscar propietarios",
+    "tags": [],
+    "uri": "src\\test\\features\\search-owner.feature"
+  }
+]
